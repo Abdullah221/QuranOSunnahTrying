@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quran O Sunnah Foundation</title>
+    <meta description="Quran o Sunnah Foundation is a Institute Where you learn the quran the easy way, We offer different Quranic Courses">
+    <meta keywords="Quran O Sunnah Foundation, Quran, Learn Quran, Quran Course">
+    <meta author="Abdullah">
+
+    <!-- StyleSheets -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="container-fluid">
+        <section id="topBar" class="container bg-primary d-flex justify-content-between text-white align-items-center p-4">
+            <section id="timeDate">
+                <span id="topTime">time</span> | <span id="topDate">date</span>
+            </section>
+            <section id="topIcons">
+                <a href="https://www.facebook.com/quranosunnah12"><i class="fa-brands fa-facebook topIcon"></i></a>
+                <a href=""><i class="fa-brands fa-twitter topIcon"></i></a>
+                <a href=""><i class="fa-brands fa-youtube topIcon"></i></a>
+                <a href=""><i class="fa-brands fa-tiktok topIcon"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin topIcon"></i></a>
+            </section>
+            <section id="topContact">
+                <i class="fa-solid fa-phone topIcon"></i>
+                +92 91 2619541
+                <i class="fa-solid fa-envelope topIcon"></i>
+                <a href="mailto:quranosunnah12@gmail.com" class="text-white" >quranosunnah12@gmail.com</a>
+            </section>
+        </section>
+        <nav class="container d-flex align-items-center justify-content-between">
+            <div class="brandLogo">
+                <img src="img/QuranOSunnahLogo.png" alt="Quran O Sunnah Logo">
+            </div>
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href=""><li>Courses</li></a>
+                    <a href=""><li>Projects</li></a>
+                    <a href=""><li>Resourses</li></a>
+                    <a href=""><li>About</li></a>
+                    <a href=""><li>Contact</li></a>
+                    <a href="" id="signUp"><li>Sign In/Up</li></a>
+                </ul>
+        </nav>
+    </header>
+    <main>
+        
+    </main>
+    <footer>
+        <div class="container-fluid bg-primary text-white">
+            <div class="container">
+                <div class="row p-4">
+                    <div class="col-4 brandFooterLogo text-center">
+                        <img src="img/QuranOSunnahLogo.png" alt="Quran o Sunnah Logo">
+                        <h3>Haleem Tower, Main G.T Road, Nishterabad Peshawar City</h3>
+                    </div>
+                    <div class="col-2">
+                        <ul>Books
+                            <li>Dr.Israr Ahmed</li>
+                        </ul>
+                    </div>
+                    <div class="col-2">
+                        About Us
+                    </div>
+                    <div class="col-2">
+                        About Us
+                    </div>
+                    <div class="col-2">
+                        About Us
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center p-2">
+                        &copy; 2024 - Quran O Sunnah Foundation.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2be14bd63e.js" crossorigin="anonymous"></script>
+    <!-- JavaScript Files -->
+    <script>
+        function updateTimeAndDate() {
+            let time = new Date();
+            let date = time.getDate() + "-" + (time.getMonth() + 1) + "-" + time.getFullYear();
+            let hours = time.getHours();
+            let minutes = time.getMinutes();
+            let TimeSession = "";
+
+            if (hours < 12) {
+                TimeSession = "AM";
+            } else {
+                TimeSession = "PM";
+                hours = hours % 12;
+                hours = hours ? hours : 12; // the hour '0' should be '12'
+            }
+
+            time = hours + ":" + (minutes < 10 ? "0" + minutes : minutes) + " " + TimeSession;
+
+            document.querySelector("#topTime").textContent = "Time: " + time;
+            document.querySelector("#topDate").textContent = "Date: " + date;
+        }
+
+        // Call the function once to set the initial time and date
+        updateTimeAndDate();
+
+        // Update the time and date every second
+        setInterval(updateTimeAndDate, 1000);
+    </script>
+</body>
+</html>
+</body>
+</html>
