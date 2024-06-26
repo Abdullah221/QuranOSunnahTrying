@@ -2,7 +2,173 @@
     padding: 0px;
     margin: 0px;
     font-family: "Poppins", Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
+header {
+    position: sticky;
+    top: 0px;
+    background-color: #ffffff;
+}
+/* Color Settings */
+.primaryColor {
+    color: #328ccb;
+    background-color: #ffffff;
+}
+.secondaryColor {
+    color: #ffffff;
+    background-color: #328ccb;
+}
+.thirdColor {
+    background-color: #c62e28;
+    color: #ffffff;
+}
+.primaryC{
+    color: #328ccb;
+}
+.secondaryC{
+    color: #ffffff;
+}
+/* Colors End */
+
+
+/* Button Settings */
+.button {
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+.buttonPrimary {
+    border: 1px solid #328ccb;
+    color: #328ccb;
+}
+.buttonSecondary {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+.buttonThird{
+    border: 1px solid #c62e28;
+    color: #c62e28;
+}
+#signUp {
+    border: none;
+}
+.largeButton {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+/* Button ends */
+
+/* Font Weight Settings */
+.fw-100 {
+    font-weight: 100;
+}
+.fw-200 {
+    font-weight: 200;
+}
+.fw-300 {
+    font-weight: 300;
+}
+.fw-400 {
+    font-weight: 400;
+}
+.fw-500 {
+    font-weight: 500;
+}
+.fw-600 {
+    font-weight: 600;
+}
+.fw-700 {
+    font-weight: 700;
+}
+.fw-800 {
+    font-weight: 800;
+}
+.fw-900 {
+    font-weight: 900;
+}
+/* Font Weight End */
+
+
+
+/* Font-Size */
+.fsize-1 {
+    font-size: 1em;
+}
+.fsize-12 {
+    font-size: 1.2em;
+}
+.fsize-14 {
+    font-size: 1.4em;
+}
+.fsize-16 {
+    font-size: 1.6em;
+}
+.fsize-18 {
+    font-size: 1.8em;
+}
+.fsize-2 {
+    font-size: 2em;
+}
+.fsize-22 {
+    font-size: 2.2em;
+}
+.fsize-25 {
+    font-size: 2.5em;
+}
+.fsize-3 {
+    font-size: 3em;
+}
+.fsize-35 {
+    font-size: 3.5em;
+}
+.fsize-4 {
+    font-size: 4em;
+}
+.fsize-05 {
+    font-size: 0.5em;
+}
+/* Font Sizes */
+
+/* Images Settings */
+.postImg {
+    border-radius: 25px;
+    overflow: hidden;
+}
+/* Position Settings */
+.pRelative {
+    position: relative;
+}
+
+
+/* Extra Settings */
+.bg-dim {
+    background-color: rgba(50, 140, 203, 0.5);
+}
+.bgSection {
+    background:url(../img/backgroundForSection.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.courseField {
+    border: 1px solid #328ccb;
+    border-radius: 25px;
+    /* margin: 0px 10px; */
+}
+
+/* Hero Section */
+.heroBackground {
+    background: url(../img/islamicBackground.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+.heroButtons {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*  */
 .topIcon {
     font-size: 1.2em;
     margin: 5px;
@@ -23,12 +189,7 @@ nav li {
     padding: 5px;
 }
 nav li:hover {
-    border-bottom: 1px solid blue;
-}
-#signUp {
-    background-color: skyblue;
-    border-radius: 5px;
-    color: white;
+    border-bottom: 1px solid #328ccb;
 }
 
 /* Detail Block */
@@ -39,7 +200,7 @@ nav li:hover {
     padding: 20px 10px;
 }
 .contactBlock {
-    border: 2px solid blue;
+    border: 2px solid #328ccb;
     border-radius:  0px 20px 0px 20px;
     margin: 10px 10px;
     padding: 20px;
@@ -50,6 +211,16 @@ nav li:hover {
 .requiredField {
     color: red;
 }
+/* .readmore p {
+    border: 1px solid white;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+.readmore p:hover {
+    background-color: white;
+    color: #328ccb;
+} */
 
 /* Contact Us Page */
 .ContactDetails {

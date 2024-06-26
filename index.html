@@ -27,125 +27,159 @@
 
 <body>
     <header class="container-fluid">
-        <section id="topBar"
-            class="container bg-primary d-flex justify-content-between text-white align-items-center p-4">
-            <section id="timeDate">
-                <span id="topTime">time</span> | <span id="topDate">date</span>
+        <div class="container-fluid bg-dim secondaryColor">
+            <section id="topBar" class="container row justify-content-between secondaryC align-items-center p-4">
+                <section id="timeDate" class="col-md-3">
+                    <span id="topTime">time</span> | <span id="topDate">date</span>
+                </section>
+                <section id="topIcons" class="col-md-3 text-end">
+                    <a href="https://www.facebook.com/quranosunnah12"><i class="fa-brands fa-facebook topIcon"></i></a>
+                    <a href="https://www.facebook.com/quranosunnah12"><i class="fa-brands fa-twitter topIcon"></i></a>
+                    <a href="https://www.facebook.com/quranosunnah12"><i class="fa-brands fa-youtube topIcon"></i></a>
+                    <a href="https://www.facebook.com/quranosunnah12"><i class="fa-brands fa-tiktok topIcon"></i></a>
+                    <a href="https://www.facebook.com/quranosunnah12"><i class="fa-brands fa-linkedin topIcon"></i></a>
+                </section>
+                <section id="topContact" class="col-md-3 text-end">
+                    <i class="fa-solid fa-phone topIcon"></i>
+                    +92 91 2619541
+                    <i class="fa-solid fa-envelope topIcon"></i>
+                    <a href="mailto:quranosunnah12@gmail.com" class="text-white">quranosunnah12@gmail.com</a>
+                </section>
             </section>
-            <section id="topIcons">
-                <a href="https://www.facebook.com/quranosunnah12"><i class="fa-brands fa-facebook topIcon"></i></a>
-                <a href=""><i class="fa-brands fa-twitter topIcon"></i></a>
-                <a href=""><i class="fa-brands fa-youtube topIcon"></i></a>
-                <a href=""><i class="fa-brands fa-tiktok topIcon"></i></a>
-                <a href=""><i class="fa-brands fa-linkedin topIcon"></i></a>
-            </section>
-            <section id="topContact">
-                <i class="fa-solid fa-phone topIcon"></i>
-                +92 91 2619541
-                <i class="fa-solid fa-envelope topIcon"></i>
-                <a href="mailto:quranosunnah12@gmail.com" class="text-white">quranosunnah12@gmail.com</a>
-            </section>
-        </section>
+        </div>
         <nav class="container d-flex align-items-center justify-content-between">
             <div class="brandLogo">
                 <img src="img/QuranOSunnahLogo.png" alt="Quran O Sunnah Logo">
             </div>
-            <ul>
-                <a href="index.html">
-                    <li>Home</li>
-                </a>
-                <a href="">
-                    <li>Courses</li>
-                </a>
-                <a href="">
-                    <li>Projects</li>
-                </a>
-                <a href="resourses.html">
-                    <li>Resourses</li>
-                </a>
-                <a href="">
-                    <li>About</li>
-                </a>
-                <a href="contact.html">
-                    <li>Contact</li>
-                </a>
-                <a href="" id="signUp">
-                    <li>Sign In/Up</li>
-                </a>
+            <ul class="d-flex list-unstyled">
+                <li><a href="index.html" class="button primaryC">Home</a></li>
+                <li><a href="#" class="button primaryC">Courses</a></li>
+                <li><a href="#" class="button primaryC">Projects</a></li>
+                <li><a href="resourses.html" class="button primaryC">Resources</a></li>
+                <li><a href="#" class="button primaryC">About</a></li>
+                <li><a href="contact.html" class="button primaryC">Contact</a></li>
+                <li><a href="#" id="signUp" class="thirdColor button">Sign In/Up</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="container-fluid">
+        <div class="container-fluid heroBackground d-flex align-items-center">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Welcome to</h2>
+                        <h1 class="primaryC fw-700">Quran O Sunnah Foundation</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum vero ab illo illum corrupti unde nihil numquam rem, cumque architecto.</p>
+                        <div class="heroButtons">
+                            <a href="" class="buttonPrimary button">Enroll Now</a>
+                            <a href="" class="buttonSecondary secondaryColor button">Join Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bgSection">
             <div class="container">
                 <div class="row justify-content-between">
                     <div class="col-12">
-                        <div class="container-fluid detailBlock bg-primary text-white">
-                            <div class="row">
+                        <div class="container-fluid detailBlock secondaryColor text-white">
+                            <div class="row align-items-center p-4">
                                 <div class="col-3">
-
+                                    <img src="img/QuranOSunnahLogo.png" alt="Quran o Sunnah Logo" width="100%">
                                 </div>
                                 <div class="col-9">
                                     <h2>-About Us</h2>
-                                    <h3>Quran o Sunnah Foundation</h3>
+                                    <h3 class="fw-700 fsize-3">Quran o Sunnah Foundation</h3>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At eveniet repudiandae
                                         maxime commodi quo excepturi corporis qui obcaecati perspiciatis earum?</p>
-                                    <div class="readmore">
-                                        <p>Read More ></p>
-                                    </div>
+                                    <a href="" class="buttonSecondary button">Read More ></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-5">
+                    <div class="col-md-5">
                         <div class="container-fluid detailBlock">
-                            <div class="row">
-                                <div class="col-3">
-
+                            <div class="row align-items-center p-4">
+                                <div class="col-3 text-center fs-2 primaryC">
+                                    <i class="fa-solid fa-mosque"></i>
                                 </div>
                                 <div class="col-9">
-                                    <h2>-About Us</h2>
-                                    <h3>Quran o Sunnah Foundation</h3>
+                                    <h2 class="primaryC">-Vision</h2>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At eveniet repudiandae
                                         maxime commodi quo excepturi corporis qui obcaecati perspiciatis earum?</p>
-                                    <div class="readmore">
-                                        <p>Read More ></p>
+                                    <a href="" class="button buttonPrimary">Read More ></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-5">
-                        <div class="container-fluid detailBlock">
-                            <div class="row">
-                                <div class="col-3">
-
-                                </div>
-                                <div class="col-9">
-                                    <h2>-About Us</h2>
-                                    <h3>Quran o Sunnah Foundation</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At eveniet repudiandae
-                                        maxime commodi quo excepturi corporis qui obcaecati perspiciatis earum?</p>
-                                    <div class="readmore">
-                                        <p>Read More ></p>
+                        <div class="col-md-5">
+                            <div class="container-fluid detailBlock">
+                                <div class="row align-items-center p-4">
+                                    <div class="col-3 text-center fs-2 primaryC">
+                                        <i class="fa-solid fa-mosque"></i>
+                                    </div>
+                                    <div class="col-9">
+                                        <h2 class="primaryC">-Mission</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At eveniet repudiandae
+                                            maxime commodi quo excepturi corporis qui obcaecati perspiciatis earum?</p>
+                                            <a href="" class="button buttonPrimary">Read More ></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
-        <div class="container-fluid bg-primary text-center text-white p-4">
-            <h2>And We have certainly made the Quran easy to remember. So is there anyone who will be mindful?</h2>
-            <h3>- Surah Al Qamar: 17, 22, 40 -</h3>
+        <div class="container-fluid secondaryColor text-center text-white p-4 mt-4">
+            <h2 class="fsize-14 fw-700">And We have certainly made the Quran easy to remember. So is there anyone who will be mindful?</h2>
+            <h3 class="fsize-1">- Surah Al Qamar: 17, 22, 40 -</h3>
         </div>
         <div class="container-fluid">
-            <h1>Abdullah</h1>
+            <div class="container m-4 mx-auto">
+                <h2 class="fsize-3">-Our Courses</h2>
+                <div class="row gx-2 justify-content-between row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+                    <div class="col courseField p-4">
+                        <div class="postImg">
+                            <img src="img/islamicBackground.jpg" alt="img" width="100%">
+                        </div>
+                        <h1 class="primaryC">Title Here</h1>
+                        <p>Exerpts</p>
+                        <a href="" class="largeButton buttonPrimary">Enroll Now</a>
+                    </div>
+                    <div class="col courseField p-4">
+                        <div class="postImg">
+                            <img src="img/islamicBackground.jpg" alt="img" width="100%">
+                        </div>
+                        <h1 class="primaryC">Title Here</h1>
+                        <p>Exerpts</p>
+                        <a href="" class="largeButton buttonPrimary">Enroll Now</a>
+                    </div>
+                    <div class="col courseField p-4">
+                        <div class="postImg">
+                            <img src="img/islamicBackground.jpg" alt="img" width="100%">
+                        </div>
+                        <h1 class="primaryC">Title Here</h1>
+                        <p>Exerpts</p>
+                        <a href="" class="largeButton buttonPrimary">Enroll Now</a>
+                    </div>
+                    <div class="col courseField p-4">
+                        <div class="postImg">
+                            <img src="img/islamicBackground.jpg" alt="img" width="100%">
+                        </div>
+                        <h1 class="primaryC">Title Here</h1>
+                        <p>Exerpts</p>
+                        <a href="" class="largeButton buttonPrimary">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <footer>
-        <div class="container-fluid bg-primary text-white">
+        <div class="container-fluid secondaryColor text-white">
             <div class="container">
                 <div class="row p-4">
                     <div class="col-4 brandFooterLogo text-center">
@@ -293,8 +327,4 @@
         setInterval(updateTimeAndDate, 1000);
     </script>
 </body>
-
-</html>
-</body>
-
 </html>
