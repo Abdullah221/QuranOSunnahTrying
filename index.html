@@ -28,18 +28,18 @@
 <body>
     <header class="container-fluid">
         <div class="container-fluid bg-dim secondaryColor">
-            <section id="topBar" class="container row justify-content-between secondaryC align-items-center p-4">
-                <section id="timeDate" class="col-md-3">
+            <section id="topBar" class="row justify-content-between secondaryC align-items-center p-4">
+                <section id="timeDate" class="col-md-4">
                     <span id="topTime">time</span> | <span id="topDate">date</span>
                 </section>
-                <section id="topIcons" class="col-md-3 text-end">
+                <section id="topIcons" class="col-md-4 text-center">
                     <a href="https://www.facebook.com/quranosunnah12"><i class="fa-brands fa-facebook topIcon"></i></a>
                     <a href="https://www.facebook.com/quranosunnah12"><i class="fa-brands fa-twitter topIcon"></i></a>
                     <a href="https://www.facebook.com/quranosunnah12"><i class="fa-brands fa-youtube topIcon"></i></a>
                     <a href="https://www.facebook.com/quranosunnah12"><i class="fa-brands fa-tiktok topIcon"></i></a>
                     <a href="https://www.facebook.com/quranosunnah12"><i class="fa-brands fa-linkedin topIcon"></i></a>
                 </section>
-                <section id="topContact" class="col-md-3 text-end">
+                <section id="topContact" class="col-md-4 text-end">
                     <i class="fa-solid fa-phone topIcon"></i>
                     +92 91 2619541
                     <i class="fa-solid fa-envelope topIcon"></i>
@@ -47,20 +47,30 @@
                 </section>
             </section>
         </div>
-        <nav class="container d-flex align-items-center justify-content-between">
-            <div class="brandLogo">
-                <img src="img/QuranOSunnahLogo.png" alt="Quran O Sunnah Logo">
+        <nav class="navbar navbar-expand-lg container">
+            <div class="container">
+                <div class="d-flex justify-content-between w-100">
+                    <div class="brandLogo">
+                        <img src="img/QuranOSunnahLogo.png" alt="Quran O Sunnah Logo">
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Courses</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+                            <li class="nav-item"><a href="resourses.html" class="nav-link">Resources</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                            <li class="nav-item"><a href="#" id="signUp" class="nav-link">Sign In/Up</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <ul class="d-flex list-unstyled">
-                <li><a href="index.html" class="button primaryC">Home</a></li>
-                <li><a href="#" class="button primaryC">Courses</a></li>
-                <li><a href="#" class="button primaryC">Projects</a></li>
-                <li><a href="resourses.html" class="button primaryC">Resources</a></li>
-                <li><a href="#" class="button primaryC">About</a></li>
-                <li><a href="contact.html" class="button primaryC">Contact</a></li>
-                <li><a href="#" id="signUp" class="thirdColor button">Sign In/Up</a></li>
-            </ul>
         </nav>
+        
     </header>
     <main>
         <div class="container-fluid heroBackground d-flex align-items-center">
@@ -140,49 +150,50 @@
         </div>
         <div class="container-fluid">
             <div class="container m-4 mx-auto">
-                <h2 class="fsize-3">-Our Courses</h2>
-                <div class="row gx-2 justify-content-between row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+                <h2 class="fsize-3 fw-700">-Our Courses</h2>
+                <div class="row justify-content-between row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
                     <div class="col courseField p-4">
                         <div class="postImg">
                             <img src="img/islamicBackground.jpg" alt="img" width="100%">
                         </div>
-                        <h1 class="primaryC">Title Here</h1>
-                        <p>Exerpts</p>
-                        <a href="" class="largeButton buttonPrimary">Enroll Now</a>
+                        <h1 class="primaryC fw-700">Understand Quran Series</h1>
+                        <p>Excerpts</p>
+                        <a href="#" class="largeButton buttonPrimary secondaryColor secondaryC">Enroll Now</a>
                     </div>
                     <div class="col courseField p-4">
                         <div class="postImg">
                             <img src="img/islamicBackground.jpg" alt="img" width="100%">
                         </div>
-                        <h1 class="primaryC">Title Here</h1>
-                        <p>Exerpts</p>
-                        <a href="" class="largeButton buttonPrimary">Enroll Now</a>
+                        <h1 class="primaryC fw-700">Tahseer Ul Quran</h1>
+                        <p>Excerpts</p>
+                        <a href="#" class="largeButton buttonPrimary secondaryColor secondaryC">Enroll Now</a>
                     </div>
                     <div class="col courseField p-4">
                         <div class="postImg">
                             <img src="img/islamicBackground.jpg" alt="img" width="100%">
                         </div>
-                        <h1 class="primaryC">Title Here</h1>
-                        <p>Exerpts</p>
-                        <a href="" class="largeButton buttonPrimary">Enroll Now</a>
+                        <h1 class="primaryC fw-700">Understand Prayer</h1>
+                        <p>Excerpts</p>
+                        <a href="#" class="largeButton buttonPrimary secondaryColor secondaryC">Enroll Now</a>
                     </div>
                     <div class="col courseField p-4">
                         <div class="postImg">
                             <img src="img/islamicBackground.jpg" alt="img" width="100%">
                         </div>
-                        <h1 class="primaryC">Title Here</h1>
-                        <p>Exerpts</p>
-                        <a href="" class="largeButton buttonPrimary">Enroll Now</a>
+                        <h1 class="primaryC fw-700">Lisan Ul Quran</h1>
+                        <p>Excerpts</p>
+                        <a href="#" class="largeButton buttonPrimary secondaryColor secondaryC">Enroll Now</a>
                     </div>
                 </div>
             </div>
         </div>
+        
     </main>
     <footer>
         <div class="container-fluid secondaryColor text-white">
             <div class="container">
                 <div class="row p-4">
-                    <div class="col-4 brandFooterLogo text-center">
+                    <div class="col-md-4 col-sm-12 brandFooterLogo text-center">
                         <img src="img/QuranOSunnahLogo.png" alt="Quran o Sunnah Logo">
                         <section class="DataForContact text-start">
                             <h3>Address:</h3>
@@ -195,7 +206,7 @@
                             <h3><a href="mailto:quranosunnah12@gmail.com">quranosunnah12@gmail.com</a></h3>
                         </section>
                     </div>
-                    <div class="col-2">
+                    <div class="col-md-2 col-sm-6">
                         <ul>Pages
                             <a href="">
                                 <li>Home</li>
@@ -223,7 +234,7 @@
                             </a>
                         </ul>
                     </div>
-                    <div class="col-2">
+                    <div class="col-md-2 col-sm-6">
                         <ul>Courses
                             <a href="">
                                 <li>Quran Course 1-6</li>
@@ -242,7 +253,7 @@
                             </a>
                         </ul>
                     </div>
-                    <div class="col-2">
+                    <div class="col-md-2 col-sm-6">
                         <ul>Books
                             <a href="">
                                 <li>Dr.Israr Ahmed</li>
@@ -270,7 +281,7 @@
                             </a>
                         </ul>
                     </div>
-                    <div class="col-2">
+                    <div class="col-md-2 col-sm-6">
                         <ul>Videos
                             <a href="">
                                 <li>Dr Israr Ahmed</li>

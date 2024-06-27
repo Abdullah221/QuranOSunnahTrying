@@ -38,15 +38,12 @@ header {
 }
 .buttonPrimary {
     border: 1px solid #328ccb;
-    color: #328ccb;
 }
 .buttonSecondary {
     border: 1px solid #ffffff;
-    color: #ffffff;
 }
 .buttonThird{
     border: 1px solid #c62e28;
-    color: #c62e28;
 }
 #signUp {
     border: none;
