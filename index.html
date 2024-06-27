@@ -47,29 +47,69 @@
                 </section>
             </section>
         </div>
-        <nav class="navbar navbar-expand-lg container">
-            <div class="container">
-                <div class="d-flex justify-content-between w-100">
-                    <div class="brandLogo">
-                        <img src="img/QuranOSunnahLogo.png" alt="Quran O Sunnah Logo">
-                    </div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                        <ul class="navbar-nav">
-                            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Courses</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
-                            <li class="nav-item"><a href="resourses.html" class="nav-link">Resources</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-                            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-                            <li class="nav-item"><a href="#" id="signUp" class="nav-link">Sign In/Up</a></li>
-                        </ul>
-                    </div>
-                </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand brandLogo" href="#">
+                <img src="img/QuranOSunnahLogo.png" alt="Quran O Sunnah Logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Courses
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Understand Quran</a></li>
+                      <li><a class="dropdown-item" href="#">Tajweed</a></li>
+                      <li><a class="dropdown-item" href="#">Tehseer Ul Quran</a></li>
+                      <li><a class="dropdown-item" href="#">Lisan Ul Quran</a></li>
+                      <li><a class="dropdown-item" href="#">Mutala e Quran Hakeem</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Projects
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Quran Academy</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Resources
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Books</a></li>
+                      <li><a class="dropdown-item" href="#">Videos</a></li>
+                      <li><a class="dropdown-item" href="#">Audios</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Press Release</a></li>
+                      <li><a class="dropdown-item" href="#">News Letter</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sign In/Up</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn buttonPrimary" type="submit">Search</button>
+                </form>
+              </div>
             </div>
-        </nav>
+          </nav>
         
     </header>
     <main>
@@ -152,37 +192,45 @@
             <div class="container m-4 mx-auto">
                 <h2 class="fsize-3 fw-700">-Our Courses</h2>
                 <div class="row justify-content-between row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
-                    <div class="col courseField p-4">
-                        <div class="postImg">
-                            <img src="img/islamicBackground.jpg" alt="img" width="100%">
+                    <div class="col">
+                        <div class="courseField p-4">
+                            <div class="postImg">
+                                <img src="img/islamicBackground.jpg" alt="img" width="100%">
+                            </div>
+                            <h1 class="primaryC fw-700">Lisan Ul Quran</h1>
+                            <p>Excerpts</p>
+                            <a href="#" class="largeButton buttonPrimary secondaryColor secondaryC">Enroll Now</a>
                         </div>
-                        <h1 class="primaryC fw-700">Understand Quran Series</h1>
-                        <p>Excerpts</p>
-                        <a href="#" class="largeButton buttonPrimary secondaryColor secondaryC">Enroll Now</a>
                     </div>
-                    <div class="col courseField p-4">
-                        <div class="postImg">
-                            <img src="img/islamicBackground.jpg" alt="img" width="100%">
+                    <div class="col">
+                        <div class="courseField p-4">
+                            <div class="postImg">
+                                <img src="img/islamicBackground.jpg" alt="img" width="100%">
+                            </div>
+                            <h1 class="primaryC fw-700">Lisan Ul Quran</h1>
+                            <p>Excerpts</p>
+                            <a href="#" class="largeButton buttonPrimary secondaryColor secondaryC">Enroll Now</a>
                         </div>
-                        <h1 class="primaryC fw-700">Tahseer Ul Quran</h1>
-                        <p>Excerpts</p>
-                        <a href="#" class="largeButton buttonPrimary secondaryColor secondaryC">Enroll Now</a>
                     </div>
-                    <div class="col courseField p-4">
-                        <div class="postImg">
-                            <img src="img/islamicBackground.jpg" alt="img" width="100%">
+                    <div class="col">
+                        <div class="courseField p-4">
+                            <div class="postImg">
+                                <img src="img/islamicBackground.jpg" alt="img" width="100%">
+                            </div>
+                            <h1 class="primaryC fw-700">Lisan Ul Quran</h1>
+                            <p>Excerpts</p>
+                            <a href="#" class="largeButton buttonPrimary secondaryColor secondaryC">Enroll Now</a>
                         </div>
-                        <h1 class="primaryC fw-700">Understand Prayer</h1>
-                        <p>Excerpts</p>
-                        <a href="#" class="largeButton buttonPrimary secondaryColor secondaryC">Enroll Now</a>
                     </div>
-                    <div class="col courseField p-4">
-                        <div class="postImg">
-                            <img src="img/islamicBackground.jpg" alt="img" width="100%">
+                    <div class="col">
+                        <div class="courseField p-4">
+                            <div class="postImg">
+                                <img src="img/islamicBackground.jpg" alt="img" width="100%">
+                            </div>
+                            <h1 class="primaryC fw-700">Lisan Ul Quran</h1>
+                            <p>Excerpts</p>
+                            <a href="#" class="largeButton buttonPrimary secondaryColor secondaryC">Enroll Now</a>
                         </div>
-                        <h1 class="primaryC fw-700">Lisan Ul Quran</h1>
-                        <p>Excerpts</p>
-                        <a href="#" class="largeButton buttonPrimary secondaryColor secondaryC">Enroll Now</a>
                     </div>
                 </div>
             </div>
